@@ -9,18 +9,11 @@
 <? require_once($_SESSION['fileDirectory']."_includes/navbar.php"); ?>
 <div id="mainContainer" class="container-fluid"> <!-- gives main bg color, extends to screen width -->
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->
-            <img class="img-fluid mx-auto d-block" src="_images/placeholder.jpg" height="480" width="960" alt="placeholder">
+            <img class="img-fluid mx-auto d-block" src="_images/placeholder.jpg" height="270" width="960" alt="placeholder">
         <div class="container">            
-            <div class="row">
-                <div class="article col-xs-12 col-sm-6 col-md-3">t commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-                <div class="article col-xs-12 col-sm-6 col-md-3">Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-                <div class="article col-xs-12 col-sm-6 col-md-3">aesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-                <div class="article col-xs-12 col-sm-6 col-md-3">Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-            </div> <!-- row -->
+           <h1 class="text-center">Every Life Matters!</h1>
             <div class="row mx-auto">
-                <div class="article col-xs-12 col-sm-6 col-md-3">Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-                <div class="article col-xs-12 col-sm-6 col-md-3">aesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
-                <div class="article col-xs-12 col-sm-6 col-md-3">Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.</div>
+            Each year, over 700,000 people are released from state and federal prisons, while a prison record can follow you around, you don’t have to let it stop you! Our clinic is committed to restorative justice and reentry to the community after incarceration.  We are a full service not-for-profit organization with the mission to assist formerly incarcerated persons with a successful transition after release. We are a community-based and run organization led by the principles of Service Learning -- combining academics with community service. We can give you the hope you need to start a new life for yourself and your family.
             </div> <!-- row 2 -->
         </div> <!-- row container -->
 	</div><!-- content container -->
