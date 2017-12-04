@@ -144,7 +144,7 @@
   
   <p id="message" class="article"></p>
   </div>
-  <p class="article"><a href = "test3.html">return to services page</a> or <a href = "contact.html"> go to contact page</a></p>
+  <p class="article"><a href = "services.php">return to services page</a> or <a href = "contact.html"> go to contact page</a></p>
 
 			</form>
 			</div>
