@@ -17,7 +17,7 @@
                     Our clinic is committed to restorative justice and reentry to the community after incarceration. 
                     We are a community-based and run organization led by the principles of Service Learning -- combining 
                     academics with community service.
-                </h>
+                </h5>
             </div>
             <div class="row py-2">
                 <span class="mx-auto d-block px-3 article" id="subTitle">What We do</span>
