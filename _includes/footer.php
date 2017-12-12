@@ -2,9 +2,10 @@
 	<div id="footerMainContent" class="container">
 		<div class="row pt-2 text-light">
 			<section id="address" class="col-sm-6 col-md-6 col-lg-3 pt-lg-5">
-				<p>804 Lincolnway West -- B 04 <br>
-					PO Box 11587 <br>
-					South Bend, Indiana 46616<br>
+				<p>Charles Martin Youth Center <br>
+					Lower Level – B04 <br>
+					802 Lincoln Way West<br>
+					South Bend, IN 46616<br>
 				<a href="tel:5749312173"><i class="fa fa-phone" aria-hidden="true"></i> 574-931-2173</a>
 				</p>
 			</section>
