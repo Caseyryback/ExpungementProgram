@@ -14,8 +14,7 @@
             <div class="row py-2">
                 <span class="mx-auto d-block px-3 article" id="subTitle">About </span>
                 <h5 class="text-light py-3">   
-                   The Northern Indiana Restorative Justice and Reentry Clinic is the only organization in Indiana specializing in pro bono and 
-                   low cost record expungement. 
+                   The Northern Indiana Restorative Justice and Reentry Clinic specializes in pro bono and low cost record expungement. 
                 </h5>
                 <span class="mx-auto d-block px-3 article" id="subTitle">Established in 2016</span>
                 <h5 class="text-light py-3"> 
