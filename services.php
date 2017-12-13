@@ -4,7 +4,7 @@
 <!-- *********************************
       INSERT PAGE SPECIFIC CSS FILE
 **************************************-->
-<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>_css/services.css">
+<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>_css/survey.css">
 </head>
 <body>
 <? require_once($_SESSION['fileDirectory']."_includes/navbar.php"); ?>
@@ -12,36 +12,35 @@
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->  
 
         <div id="serv">
-        <h4> "Services."</h4> 
-        <p>"Since 2013, we have made over 3,500 unique contacts, and have had more successful expungements granted and pro bono filings than any other organization or legal group in the region. No huge legal fees required!"</p>
+        <div id="article">
+        <h4> “What is an Expungement & Why Does Anyone Need One?”</h4> 
+            </div>
+        <p>"Expungement is the removal of criminal records from public inspection that come up in a Criminal Background Check. Nearly one out of every three American adults has a record of some type in a criminal database."</p>
       </div>   
       <div class="row1">
       <div id="how">
+          <div class ="article">
         <h3> "How"
         </h3> 
+          </div>
           <p>"In July of 2013, the Indiana Legislature enacted Indiana&#39;s Second Chance Act allowing individuals who met certain criteria the opportunity to seal their criminal records. Expungement is only allowed once in a lifetime."
           </p>
-      </div>                             
+      </div>  
+        </div>
       <div id="elig">
+          <div class ="article">
          <h3> "Eligibility"
-         </h3> 
-           <p>"Arrest Records - I.C. 35-38-9-1
-Misdemeanors - I.C. 35-38-9-2
-Less Serious Felonies - I.C. 35-38-9-4
-Serious Felonies - I.C. 35-38-9-5"
+              </h3> </div>
+          <p>Expungement can include arrest, misdemeanor, and felony conviction records.</p>
               <p>Click <a href="survey.php">here</a> to see if you are eligible.</p>
         </div>  
-      <div id="pay">
-         <h3> "Payment"
-        </h3>
-          <p>"Payable with cash, check, or money order"
-          </p>
-        </div>
         <div class="row">
-        <div class ="article" id="info">
+            <div id="info">
+        <div class ="article">
             <h3>
              "Important Information"                                                          
           </h3>
+            </div>
             <p>
             "We serve the entire state of Indiana. Either stop by our office during open hours or call to make an appointment (see our Contact page) for a consultation. Please bring a valid form of identification to your first meeting."
           </p>
