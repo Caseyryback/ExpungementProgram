@@ -9,14 +9,14 @@
 <? require_once($_SESSION['fileDirectory']."_includes/navbar.php"); ?>
 <div id="mainContainer" class="container-fluid"> <!-- gives main bg color, extends to screen width -->
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->
-            <img class="img-fluid mx-auto d-block" src="_images/homePage2.jpg" height="480" width="960" alt="placeholder">
+            <img class="img-fluid mx-auto d-block" src="_images/homePage3.jpg" height="480" width="960" alt="placeholder">
         <div class="container">            
             <div class="row py-2">
-                <span class="mx-auto d-block px-3 article" id="subTitle">Indiana's Leading Record Expungement Service </span>
+                <span class="mx-auto d-block px-3 article" id="subTitle">Northern Indiana Re-Entry & Restorative Justice Clinic, Inc.</span>
                 <h5 class="text-light py-3">   
-                    Our clinic is committed to restorative justice and reentry to the community after incarceration. 
-                    We are a community-based and run organization led by the principles of Service Learning -- combining 
-                    academics with community service.
+                    The Second Chance Initiative began as a ‘service learning’ program birthed out of Ivy Tech Community College’s (North Central Region), Business and Public Service Division.  The program has 
+                    grown and is now an incorporated not-for-profit community-based social service agency that provides legal resources and education assisting students and community members with the removal of eligible criminal records. 
+                    Our mission is to help make Indiana a great place to live, work and play! Promoting social and economic justice for all
                 </h5>
             </div>
             <div class="row py-2">
@@ -31,15 +31,15 @@
                 </h5>
                 <span class="mx-auto d-block px-3 article" id="subTitle">What is an Expungement &amp; Why Does Anyone Need One?</span>
                 <h5 class="text-light py-3">
-                    <div><i id="circle" class="fa fa-circle py-2" aria-hidden="true"></i>  Expungement is the removal of criminal records from public inspection that come up in a Criminal Background Check.</div>
-                    <div><i id="circle" class="fa fa-circle py-2" aria-hidden="true"></i>  Currently in our society even after you have paid your debt to society you may still punished if you have a criminal record because of the prevalence of the internet and social media.</i>
-                    <div><i id="circle" class="fa fa-circle py-2" aria-hidden="true"></i>  Having a criminal record limits opportunities in: </i>
-                    <a><i id="check" class="fa fa-check" aria-hidden="true"></i>  Employment</a>
-                    <a><i id="check" class="fa fa-check" aria-hidden="true"></i>   Loans</a>
-                    <a><i id="check" class="fa fa-check" aria-hidden="true"></i>   Education</a>
-                    <a><i id="check" class="fa fa-check" aria-hidden="true"></i>   Housing</a>
-                    <a><i id="check" class="fa fa-check" aria-hidden="true"></i>   Public Benefits</a>
-                    <div><i id="circle" class="fa fa-circle py-2" aria-hidden="true"></i>  Your criminal record is never forgotten and never forgiven.</div>
+                    <div><i id="circle" class="fa py-2 bullet" aria-hidden="true"></i>  Expungement is the removal of criminal records from public inspection that come up in a Criminal Background Check.</div>
+                    <div><i id="circle2" class="fa py-2 bullet" aria-hidden="true"></i>  Currently in our society even after you have paid your debt to society you may still punished if you have a criminal record because of the prevalence of the internet and social media.</i>
+                    <div><i id="circle" class="fa py-2 bullet" aria-hidden="true"></i>  Having a criminal record limits opportunities in: </i>
+                    <a><i id="check" class="fa check" aria-hidden="true"></i>  Employment</a>
+                    <a><i id="check" class="fa check" aria-hidden="true"></i>   Loans</a>
+                    <a><i id="check" class="fa check" aria-hidden="true"></i>   Education</a>
+                    <a><i id="check" class="fa check" aria-hidden="true"></i>   Housing</a>
+                    <a><i id="check" class="fa check" aria-hidden="true"></i>   Public Benefits</a>
+                    <div><i id="circle" class="fa py-2 bullet" aria-hidden="true"></i>  Your criminal record is never forgotten and never forgiven.</div>
                 </h5>
             </div> <!-- row 2 -->
         </div> <!-- row container -->
