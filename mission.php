@@ -3,22 +3,25 @@
 <!-- *********************************
       INSERT PAGE SPECIFIC CSS FILE
 **************************************-->
-<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>_css/index.css">
-</head>
+<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>_css/mission.css">
+
 <body>
 <? require_once($_SESSION['fileDirectory']."_includes/navbar.php"); ?>
 <div id="mainContainer" class="container-fluid"> <!-- gives main bg color, extends to screen width -->
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->
-            <img class="img-fluid mx-auto d-block" src="_images/placeholder.jpg" height="250" width="250" alt="placeholder">
-        <div class="container">            
-           <h1 class="text-center">Every Life Matters!</h1>
+            <div id ="showImg"></div>
+        <div class="container"> 
+            <center><img src="_images/people1.jpg" class="img-rounded" alt="family"></center>
+            <center> <input type="button" value="Randomize!" onClick="imgRandom()" /></center>
+           <h1><span class="mx-auto d-block px-3 article" id="subTitle">Every Life Matters!</span></h1>
             <div class="row mx-auto">
-            Each year, over 700,000 people are released from state and federal prisons, while a prison record can follow you around, you don’t have to let it stop you! Our clinic is committed to restorative justice and reentry to the community after incarceration.  We are a full service not-for-profit organization with the mission to assist formerly incarcerated persons with a successful transition after release. We are a community-based and run organization led by the principles of Service Learning -- combining academics with community service. We can give you the hope you need to start a new life for yourself and your family.
+            We believe that the expungement process as an important equalizer within the restorative justice process. Our clinic is committed to restorative justice and reentry to the community after incarceration. We are a community-based and run organization led by the principles of Service Learning -- combining academics with community service. 
+            The Second Chance Initiative began as a ‘service learning’ program birthed out of Ivy Tech Community College’s (North Central Region), Business and Public Service Division. The program has grown and is now an incorporated not-for-profit community-based social service agency that provides legal resources and education assisting students and community members with the removal of eligible criminal records. Our mission is to help make Indiana a great place to live, work and play! Promoting social and economic justice for all. We can give you the hope you need to clear a path for a new life for yourself and your family.
             </div> <!-- row 2 -->
         </div> <!-- row container -->
 	</div><!-- content container -->
 </div><!-- main page container -->
 
 <? require_once($_SESSION['fileDirectory'].'_includes/bootstrapDependencies.php'); ?>
-<script src="<? echo $_SESSION['fileDirectory'] ?>_script/index.js"></script>
+<script src="<? echo $_SESSION['fileDirectory'] ?>_script/mission.js"></script>
 <? require_once($_SESSION['fileDirectory'].'_includes/footer.php'); ?>
