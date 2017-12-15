@@ -13,21 +13,20 @@
          <div class="articleSTATUTORY REQUIREMENTS">
             
             
-<div id="comp">
-<div class="green">
+
   <form id="myForm">
   
 
  
-        <fieldset class="article">
+        <fieldset >
           <h3>
             <legend>Eligibility Test</legend>
           </h3>
         </fieldset>
 		
-		<p class="article">Please Answer the following questions to determine if you are eligible for expungement.</p>
+		<p >Please Answer the following questions to determine if you are eligible for expungement.</p>
    
-        <fieldset class="article">
+        <fieldset >
 
   <legend>Have you had your record expunged before?</legend>
   <input id="exp_yes" type="radio" name="field1" value="0" />
@@ -41,7 +40,7 @@
 
 </fieldset>
 
-<fieldset class="article">
+<fieldset >
   <legend>Do you have any charges pending against you?</legend>
   <input id="chg_yes"  type="radio" name="field2" value="0" />
   <label>
@@ -53,108 +52,57 @@
       </label>
 </fieldset>
 
-<fieldset class="article">
-  <legend>Is your drivers license suspended?</legend>
-  <input id="sus_yes" type="radio" name="field3" value="0" />
+<fieldset >
+  <legend>Have any of your convictions ever been for a murder / manslaughter or attempt of the same?</legend>
+  <input id="mur_yes" type="radio" name="field3" value="0" />
   <label>
                    Yes
               </label>
-  <input id="sus_no" type="radio" name="field3" value="1" />
+  <input id="mur_no" type="radio" name="field3" value="1" />
   <label>
                    No
               </label>
+
 </fieldset>
-<fieldset id="submitbutton" class="article">
+      
+      <fieldset >
+  <legend>Have any of your convictions been for a sex crime or required you to sign up for the sex offender registry?</legend>
+  <input id="off_yes" type="radio" name="field4" value="0" />
+  <label>
+                   Yes
+              </label>
+  <input id="off_no" type="radio" name="field4" value="1" />
+  <label>
+                   No
+              </label>
+
+</fieldset>
+      
+   <fieldset >
+  <legend>Do you still owe any fines, fees, or restitution on any of criminal convictions?</legend>
+  <input id="fin_yes" type="radio" name="field5" value="0" />
+  <label>
+                   Yes
+              </label>
+  <input id="fin_no" type="radio" name="field5" value="1" />
+  <label>
+                   No
+              </label>
+
+</fieldset>   
+<fieldset id="submitbutton" >
   <input type="button" id="submit" value="submit" onclick='answer()' />
 </fieldset>
- <div id="first">
-<p id="totalScore" class="article"></p>
-</form>
- </div>
+<p id="totalScore"></p>
     
- <div id="second">
-           <form>
-            
-             <fieldset class="article">
-                    <label>
-                    <legend>Is your arrest record a:</legend>
-                        <input id="arr_1" type="radio" name="field4" value="1" onclick="getscores4(this)"/>
-                        IC 35-38-9-1
-                    </label>
-                    <label>
-                        <input id="arr_2" type="radio" name="field4" value="2" onclick="getscores4(this)"/>
-                        IC 35-38-9-2
-                    </label>
-                     <label>
-                        <input id="arr_3" type="radio" name="field4" value="3" onclick="getscores4(this)"/>
-                         IC 35-38-9-3
-                    </label>
-                     <label>
-                        <input id="arr_4" type="radio" name="field4" value="4" onclick="getscores4(this)"/>
-                         IC 35-38-9-4
-                    </label>
-                     <label>
-                        <input id="arr_5" type="radio" name="field4" value="5" onclick="getscores4(this)"/>
-                         IC 35-38-9-5
-                    </label>
-                </fieldset>
-				
-			 
-              <fieldset class="article">
-			  <label>
-                    <legend>Has it been:</legend>
-                        <input id="been1" type="radio" name="field5" value="1" onclick="getscores5(this)"/>
-                    1 Year From Date of Arrestor earlier if the Prosecutor agrees
-                    </label>
-                     <label>
-                         </br>
-                        <input id="been2" type="radio" name="field5" value="2" onclick="getscores5(this)"/>
-                         5 Years From Date of Arrestor earlier if the Prosecutor agrees
-                    </label>
-                     <label>
-                         </br>
-                        <input id="been3" type="radio" name="field5" value="3" onclick="getscores5(this)"/>
-                         8 YearsFrom Date of Arrestor earlier if the Prosecutor agrees
-                    </label>
-                     <label>
-                         </br>
-                        <input id="been4" type="radio" name="field5" value="4" onclick="getscores5(this)"/>
-                         8/3 Years The Later of 8 Years from Date of Conviction or 3 years from completion of the sentence or earlier if the Prosecutor agrees
-     </label>
-                     <label>
-                         </br>
-                        <input id="been5" type="radio" name="field5" value="5" onclick="getscores5(this)"/>
-                         10/5 Years The Later of 10 Years from Date of Conviction or 5 years from completion of the  sentence or earlier if the Prosecutor agrees
-                    </label>
-                </fieldset>
-            
-			<fieldset id="submitbutton2" class="article">
-  <input type="button" id="submit2" value="submit" onclick='answer2(); toggletab3();' />
-  </fieldset>
-  </div>
-  
-  <div id="third">
- <fieldset class="article">
-			  <label>
-                    <legend>Results:</legend>
-                    <p id="finalScore"></p>
-                    </label>
-</fieldset>
-  
-  
-  <p id="message" class="article"></p>
-  </div>
+ 
   <p class="article"><a href = "services.php">return to services page</a> or <a href = "contact.html"> go to contact page</a></p>
 
 			</form>
-			</div>
-			</div>
+			
 			
 			<script src="survey.js"></script>
-			<script src="survey2.js"></script>
-			<script src="toggle.js"></script>
-			<script src="toggle2.js"></script>
-			<script src="toggle3.js"></script>
+			
 	</div><!-- content container -->
 </div><!-- main page container -->
 
