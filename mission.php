@@ -3,7 +3,7 @@
 <!-- *********************************
       INSERT PAGE SPECIFIC CSS FILE
 **************************************-->
-<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>_css/mission.css">
+<link rel="stylesheet" href="<? echo $_SESSION['fileDirectory']; ?>mission.css">
 
 <body>
 <? require_once($_SESSION['fileDirectory']."_includes/navbar.php"); ?>
@@ -11,8 +11,8 @@
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->
             <div id ="showImg"></div>
         <div class="container"> 
-            <center><img src="_images/people1.jpg" class="img-rounded" alt="family"></center>
-            <center> <input type="button" value="Randomize!" onClick="imgRandom()" /></center>
+            <center><img id="target" src="_images/people1.jpg"  height = "280" width="960" class="img-rounded" alt="family"></center>
+            <center> <input id="submit" type="button" value="Randomize!"></center>
            <h1><span class="mx-auto d-block px-3 article" id="subTitle">Every Life Matters!</span></h1>
             <div class="row mx-auto">
             We believe that the expungement process as an important equalizer within the restorative justice process. Our clinic is committed to restorative justice and reentry to the community after incarceration. We are a community-based and run organization led by the principles of Service Learning -- combining academics with community service. 
@@ -23,5 +23,5 @@
 </div><!-- main page container -->
 
 <? require_once($_SESSION['fileDirectory'].'_includes/bootstrapDependencies.php'); ?>
-<script src="<? echo $_SESSION['fileDirectory'] ?>_script/mission.js"></script>
+<script src="<? echo $_SESSION['fileDirectory'] ?>mission.js"></script>
 <? require_once($_SESSION['fileDirectory'].'_includes/footer.php'); ?>
