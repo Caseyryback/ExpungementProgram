@@ -28,7 +28,7 @@
 <div id="mainContainer" class="container-fluid"> <!-- gives main bg color, extends to screen width -->
 	<div id="contentContainer" class="container pt-1"><!-- contains all content -->
         <div class="row">
-            <form class="col-md-6" col-md-offset-3">
+            <form class="col-md-6" "col-md-offset-3">
                 <h2>Contact Us</h2>                                      
             <form method="post" action="send.php">
             <input type="text" name="name" placeholder="Your Name"> <br /><br />

@@ -102,6 +102,10 @@
 			
 			
 			<script src="survey.js"></script>
+			<script src="toggle.js"></script>
+			<script src="toggle2.js"></script>
+			<script src="toggle3.js"></script>
+			
 			
 	</div><!-- content container -->
 </div><!-- main page container -->

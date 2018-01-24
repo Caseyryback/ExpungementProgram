@@ -6,7 +6,7 @@ function answer(total) {
   if (document.getElementById('chg_no').checked) {
     score++;
   }
-  if (document.getElementById('sus_no').checked) {
+  if (document.getElementById('mur_no').checked) {
     score++;
   }
   if (score != 3) {
