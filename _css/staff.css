@@ -1,0 +1,11 @@
+img {
+	border: 5px solid purple;
+}
+.left-article {
+	border-right: 1px solid purple;
+}
+@media (max-width: 767px){
+	.left-article{
+		border-right:none;
+	}
+}

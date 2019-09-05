@@ -13,137 +13,100 @@
          <div class="articleSTATUTORY REQUIREMENTS">
             
             
-            <form id="myForm">
-             <div class="sub form-row align-items-center">
-                 <div class="col">
-                <fieldset>
-                    <h3><legend>Eligibility Test</legend></h3>
-                </fieldset>
-                 </div>
-                 </div>
-                 <div class="col">
-                   <fieldset>
-                       <div class="col">
-                    <legend>Have you had your record expunged before?</legend>
-                        <input type="radio" name="field1" value="0" onclick="checkTotal()"/>
-                        <label> yes</label>
-                       </div>
-                          <input type="radio" name="field1" value="1" onclick="checkTotal()"/>
-                       <label>  no </label>
-                    </fieldset>
-                 </div>
-                 <div class="col">
-                 <div class="row">
-					 <fieldset>
-                    <legend>Do you have any charges pending against you?</legend>
-                      <input type="radio" name="field2" value="0" onclick="calculateTotal()"/>
-                         <label>
-                         Yes
-                    </label>
-                           <input type="radio" name="field2" value="1" onclick="calculateTotal()"/>
-                     <label>
-                         No
-                    </label>
-                </fieldset>
-                     </div>
-                 </div>
-                <div class="row">
-                    <div class="col">
-                <fieldset>
-                    <legend>Is your drivers license suspended?</legend>
-                     <input type="radio" name="field3" value="0" onclick="calculateTotal()"/>
-                    <label>
-                         Yes
-                    </label>
-                     <input type="radio" name="field3" value="1" onclick="calculateTotal()"/>
-                     <label>
-                         No
-                    </label>
-                </fieldset>
-                 </div>
-                 </div>
-                 
-                  <div class="row">
-                      <div class="col">
-                <fieldset>
-                    
-                    <legend>Is your arrest record a: (return to <a href="services.php"> eligibility</a> for description.)</legend>
-                
-                    <input class="num" type="radio" name="field4" value="1" onchange="checkTotal()"/>
-                    <label>
-                        IC 35-38-9-1
-                    </label>
-                        <input class="num" type="radio" name="field4" value="2" onchange="checkTotal()"/>
-                        <label>
-                        IC 35-38-9-2
-                    </label>
-                     
-                        <input class="num" type="radio" name="field4" value="3" onchange="checkTotal()"/>
-                            <label>
-                         IC 35-38-9-3
-                        </label>
-                        <input class="num" type="radio" name="field4" value="4" onchange="checkTotal()"/>
-                                <label>
-                         IC 35-38-9-4
-                       </label>
-                        <input class="num" type="radio" name="field4" value="5" onchange="checkTotal()"/>
-                    <label>
-                         IC 35-38-9-5
-                    </label>
-                </fieldset>
-                      </div>
-                 </div>
-                <div class="row">
-                    <div class="col">
-                <fieldset>
-                    <legend>How long has it been since?:</legend>
-                    
-                    <input class="num" type="radio" name="field5" value="1" />
-                    <label>
-                    1 Year From Date of Arrestor
-                    </label> <br/>
-                    
-                    
-                        <input class="num" type="radio" name="field5" value="2" />
-                    <label>
-                         5 Years From Date of Arrestor
-                    </label> <br/>
-                    
-                
-                        <input class="num" type="radio" name="field5" value="3" />
-                    <label>
-                         8 Years From Date of Arrestor
-                    </label><br />
-                    
-                
-                        <input class="num" type="radio" name="field5" value="4" />
-                    <label>
-                         8/3 Years The Later of 8 Years from Date of Conviction or 3 years from completion of the sentence
-                    </label><br />
-                    
-    
-                        <input class="num" type="radio" name="field5" value="5" />
-                    <label>
-                         10/5 Years The Later of 10 Years from Date of Conviction or 5 years from completion of the sentence
-                    </label> <br />
-                </fieldset>
-                    </div>
-                 </div>
-                
-                 <div class="row">
-                     <div class="col">
-                <fieldset id="submitbutton">
-                    <a href="test.php"> <input type="submit" id="submit" value="submit" /> </a>
-                </fieldset>
-                 </div>
-                  </div>
-                
-             
-<div id="totalPrice"></div>
 
-                 
-            </form>
-             <script type="text/javascript" src="test.js"></script>
+  <form id="myForm">
+  
+
+ 
+        <fieldset >
+          <h3>
+            <legend>Eligibility Test</legend>
+          </h3>
+        </fieldset>
+		
+		<p >Please Answer the following questions to determine if you are eligible for expungement.</p>
+   
+        <fieldset >
+
+  <legend>Have you had your record expunged before?</legend>
+  <input id="exp_yes" type="radio" name="field1" value="0" />
+  <label>
+        Yes
+      </label>
+  <input id="exp_no" type="radio" name="field1" value="1" />
+  <label>
+        No
+      </label>
+
+</fieldset>
+
+<fieldset >
+  <legend>Do you have any charges pending against you?</legend>
+  <input id="chg_yes"  type="radio" name="field2" value="0" />
+  <label>
+        Yes
+      </label>
+  <input id="chg_no" type="radio" name="field2" value="1" />
+  <label>
+        No
+      </label>
+</fieldset>
+
+<fieldset >
+  <legend>Have any of your convictions ever been for a murder / manslaughter or attempt of the same?</legend>
+  <input id="mur_yes" type="radio" name="field3" value="0" />
+  <label>
+                   Yes
+              </label>
+  <input id="mur_no" type="radio" name="field3" value="1" />
+  <label>
+                   No
+              </label>
+
+</fieldset>
+      
+      <fieldset >
+  <legend>Have any of your convictions been for a sex crime or required you to sign up for the sex offender registry?</legend>
+  <input id="off_yes" type="radio" name="field4" value="0" />
+  <label>
+                   Yes
+              </label>
+  <input id="off_no" type="radio" name="field4" value="1" />
+  <label>
+                   No
+              </label>
+
+</fieldset>
+      
+   <fieldset >
+  <legend>Do you still owe any fines, fees, or restitution on any of criminal convictions?</legend>
+  <input id="fin_yes" type="radio" name="field5" value="0" />
+  <label>
+                   Yes
+              </label>
+  <input id="fin_no" type="radio" name="field5" value="1" />
+  <label>
+                   No
+              </label>
+
+</fieldset>   
+<fieldset id="submitbutton" >
+  <input type="button" id="submit" value="submit" onclick='answer()' />
+</fieldset>
+<p id="totalScore"></p>
+    
+ 
+  <p class="article"><a href = "services.php">return to services page</a> or <a href = "contact.html"> go to contact page</a></p>
+
+			</form>
+			
+			
+			<script src="survey.js"></script>
+			<script src="toggle.js"></script>
+			<script src="toggle2.js"></script>
+			<script src="toggle3.js"></script>
+			
+			
 	</div><!-- content container -->
 </div><!-- main page container -->
 
